@@ -24,11 +24,11 @@ int	main(int argc, char **argv)
 		{
 			c = argv[1][i];
 			if (c >= 'a' && c <= 'y')
-				c = c + 1;
+				c += 1;
 			else if (c >= 'A' && c <= 'Y')
-				c = c + 1;
+				c += 1;
 			else if (c == 'z' || c == 'Z')
-				c = c - 25;
+				c -= 25;
 			write(1, &c, 1);
 			i++;
 		}
