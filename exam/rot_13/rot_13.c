@@ -20,7 +20,7 @@ int	main(int argc, char **argv)
 	i = 0;
 	if (argc == 2)
 	{
-		while (argv[1][i] != '\0')
+		while (argv[1][i])
 		{
 			c = argv[1][i];
 			if (c >= 'a' && c <= 'z')
