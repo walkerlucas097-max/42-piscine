@@ -27,7 +27,7 @@ int	main(int argc, char **argv)
 				c = c + 1;
 			else if (c >= 'A' && c <= 'Y')
 				c = c + 1;
-			else if (c == 'z' && c == 'Z')
+			else if (c == 'z' || c == 'Z')
 				c = c - 25;
 			write(1, &c, 1);
 			i++;
