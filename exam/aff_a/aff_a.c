@@ -12,7 +12,7 @@
 
 #include <unistd.h>
 
-int	main(int argc, char **argv)
+int		main(int argc, char **argv)
 {
 	int	i;
 
@@ -32,4 +32,5 @@ int	main(int argc, char **argv)
 	}
 	else
 		write(1, "a\n", 2);
+		return (0);
 }
